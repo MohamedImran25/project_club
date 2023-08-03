@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'open scan';
+    src: url(Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+.outline{
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    color: #ffffff;
+    background-color: #292d33;
+}
+.container{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid red; */
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+}
+.innerline{
+    width: 100%;
+    height: 68%;
+    /* border: 4px solid brown; */
+    background-color: #292d33;
+    position: relative;
+}
+.card-wrapper{
+    width:33%;
+    height: 93%;
+    /* border: 1px solid yellow; */
+    display: inline-block;
+}
+.card{
+    width: 90%;
+    height: 95%;
+    /* border: 1px solid orange; */
+    margin-left:5%;
+    margin-top: 2%;
+    border: 7px solid #ccd3db;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: inline-block;
+    
+
+}
+
+.icon{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    position: relative;
+    background-color: #ccd3db;
+}
+.content{
+    width:95% ;
+    height: 60%;
+    /* border: 1px solid yellow; */
+    margin-top: 20;
+    margin: auto;
+    position: relative;
+    
+}
+.container h4{
+    font-size: 25px;
+    color: #858e99 ;
+}
+.container h1{
+    font-size: 50px;
+    color:#ccd3db ;
+}
+.content h5{
+    font-size: 16px;
+    font-family: 'roboto';
+    text-align: center;
+    color: #555c66;
+}
+.content p{
+    font-size: 17px;
+    font-family: 'open scan';
+    text-align: center;
+    color:#808080 ; 
+    padding: 2%;   
+}
+.icon img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 8%;
+
+}
